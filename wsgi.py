@@ -25,3 +25,10 @@ os.environ['DJANGO_SETTINGS_MODULE'] = 'mainsite.settings_local'
 
 # hand off to the wsgi application
 application = get_wsgi_application()
+
+uid = www-data
+gid = www-data
+enable-threads = true
+thunder-lock = true
+vacuum = true
+die-on-term = true
